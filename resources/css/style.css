@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Lexend Mega", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* NAV SECTION */
+nav h1 {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 1rem 3rem;
+}
+
+nav a {
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* BANNER SECTION */
+#banner {
+    background-image: url("../images/skyscrapers.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner div {
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+}
+
+#banner div * {
+    padding: .25rem;
+}
+
+/* PORTFOLIO SECTION */
+#portfolio {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+#portfolio-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+#portfolio img {
+    width: 12.5rem;
+    height: auto;
+}
+
+#portfolio span {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#portfolio h2, #portfolio h4 {
+    padding-bottom: 1.5rem;
+}
+
+/* TEAM SECTION */
+#team {
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/blurred-road.jpg");
+    color: white;
+    margin-top: 1rem;
+}
+
+#team img {
+    width: 12.5rem;
+}
+
+.employee {
+    padding: 2rem;
+}
+
+.employee * {
+    margin-bottom: 1rem;
+}
+
+/* CONTACT SECTION */
+#contact {
+    margin: 3rem;
+}
+
+#contact * {
+    padding: 1rem;
+}
+
+#contact h5 {
+    font-size: 1.2rem;
+}
+
+/* FOOTER SECTION */
+footer {
+    padding: 3rem;
+    font-size: 1.2rem;
+}
